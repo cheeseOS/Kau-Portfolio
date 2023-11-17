@@ -1,0 +1,141 @@
+.projetos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projetos-titulo{
+    font-size: var(--tamanho-2xl);
+    color: var(--cor-clara);    
+    text-align: center;
+
+}
+.projetos-texto{
+    max-width: 50ch;
+    font-size: var(--tamanho-xl);
+    color: var(--cor-clara);
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.projetos-tituloprojeto{
+    font-size: var(--tamanho-base);
+    color: var(--cor-clara);    
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.imagem-grande{
+    display: inline;
+    width: 608px;
+    height: 374px;
+}
+
+/* .projetos-imagembk{
+    position: relative;
+}
+
+.projetos-imagembk::after {
+    content:'';
+    background-color: rgba(79, 70, 229, 0.4);
+    width: 608px;
+    height: 374px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background-color 0.3s;
+}
+
+.projetos-imagembk:hover::after{
+    background-color: rgba(79, 70, 229, 0.3);
+} */
+
+.projeto-paragrafo1{
+    font: var(--tamanho-sm);
+    margin: 1rem 0;
+    max-width: 90ch;
+}
+/* .projeto-paragrafo2{
+    font-size: var(--tamanho-sm);
+    margin-bottom: 1rem;
+} */
+
+.projeto-separador:not(:last-child){
+    margin-bottom: 5rem;
+}
+
+/* xs */
+@media (min-width:475px) {
+    .projetos-titulo{
+        font-size: var(--tamanho-3xl);
+    
+    }
+    .projetos-texto{
+        font-size: var(--tamanho-base);
+        margin: 1.5rem auto;
+    }
+
+    .projetos-tituloprojeto{
+        font-size: var(--tamanho-lg);
+        color: var(--cor-clara);    
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .projeto-paragrafo1{
+        font: var(--tamanho-base);
+        margin: 1.5rem 0;
+    }
+
+    /* .projeto-paragrafo2{
+        font-size: var(--tamanho-base);
+        margin-bottom: 1.5rem;
+    } */
+    
+}
+
+/* sm */
+/* @media (min-width:640px) {
+
+}
+ */
+/* md */
+/* @media (min-width:768px) {
+
+}
+ */
+/* lg */
+@media (min-width:1024px) {
+        .projetos-titulo{
+        font-size: var(--tamanho-4xl);
+    
+    }
+    .projetos-texto{
+        font-size: var(--tamanho-lg);
+        margin: 1.5rem auto;
+    }
+    
+}
+
+/* xl */
+@media (min-width:1280px) {
+        .projetos-titulo{
+        font-size: var(--tamanho-5xl);
+    
+    }
+    .projetos-texto{
+        font-size: var(--tamanho-xl);
+        margin: 2rem auto;
+    }
+    
+}
+
+/* 2xl */
+/* @media (min-width:1536px) {
+
+} */

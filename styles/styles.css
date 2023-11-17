@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    line-height: calc(1em + .5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+
+}
+body::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--cor-cinzacuro);
+    outline: 1px solid var(--cor-cinza);
+}
+
+
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+:root{
+    --cor-escura: #070a13;
+    --cor-clara: #f1f5f9;
+    --cor-cinzaclaro:#94a3b8;
+    --cor-cinza:#475569;
+    --cor-cinzacuro:#1e293b;
+    --cor-verde: #16a34a;
+    --cor-azul: #0891b2;
+    /* cor verde rgb(22, 163, 74)  */
+    /* cor azul rgb(8, 145, 178)  */
+
+    /* cu */
+    --tamanho-xxs: .5rem;
+    --tamanho-xs: .75rem;
+    --tamanho-sm: .875rem;
+    --tamanho-base: 1rem;
+    --tamanho-lg: 1.125rem;
+    --tamanho-xl: 1.25rem;
+    --tamanho-2xl: 1.5rem;
+    --tamanho-3xl: 1.875rem;
+    --tamanho-4xl: 2.25rem;
+    --tamanho-5xl: 3rem;
+    --tamanho-6xl: 3.75rem;
+    --tamanho-7xl: 4.5rem;
+    --tamanho-8xl: 6rem;
+    --tamanho-9xl: 8rem;
+    --tamanho-10xl: 10rem;
+
+}
+
+strong{
+    color: var(--cor-verde);
+}
+
+#btnTop {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--cor-verde);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /*rgba(0, 172, 240, 0.514)*/
+}
+
+.arrow { 
+    border: solid var(--cor-escura);
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform:rotate(-135deg);
+}
+
+.rodape {
+    padding: 15px;
+    color: white;
+    background: var(--cor-cinzacuro);
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: 300;
+}
