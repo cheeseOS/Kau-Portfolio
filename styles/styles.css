@@ -46,6 +46,7 @@ button{
 }
 
 :root{
+    /* cores usadas no projeto */
     --cor-escura: #070a13;
     --cor-clara: #f1f5f9;
     --cor-cinzaclaro:#94a3b8;
@@ -56,7 +57,7 @@ button{
     /* cor verde rgb(22, 163, 74)  */
     /* cor azul rgb(8, 145, 178)  */
 
-    /* cu */
+    /* tamanhos a serem utilizados */
     --tamanho-xxs: .5rem;
     --tamanho-xs: .75rem;
     --tamanho-sm: .875rem;
@@ -75,9 +76,13 @@ button{
 
 }
 
+/* negrito colorido */
+
 strong{
     color: var(--cor-verde);
 }
+
+
 
 #btnTop {
     position: fixed;
@@ -92,7 +97,6 @@ strong{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    /*rgba(0, 172, 240, 0.514)*/
 }
 
 .arrow { 
