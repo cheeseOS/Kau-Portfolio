@@ -145,7 +145,7 @@
 /* INICIO TELA DE BOAS VINDAS*/
 
 .quadro{
-    padding-top: 30rem;
+    padding-top: 27vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,7 +218,7 @@
 /* MEDIA QUERY TELA DE BOAS VINDAS */
 @media (min-width:425px) {
     .quadro{
-        padding-top: 30rem;
+/*         padding-top: 30rem; */
         gap: 1.5rem;
         margin-top: 2rem;
         }
@@ -250,9 +250,14 @@
         font-size: var(--tamanho-base);
     }
 }
+@media (min-width:768px){
+    .quadro{
+        padding-top: 30vh;
+    }
+}
 @media (min-width:1024px) {
     .quadro{
-        padding-top: 27rem;
+        padding-top: 28vh;
         gap: 1.5rem;
         margin-top: 2rem;
         }
@@ -282,7 +287,7 @@
 }
 @media (min-width:1280px) {
     .quadro{
-        padding-top: 29rem;
+/*         padding-top: 29rem; */
         gap: 1.5rem;
         margin-top: 2rem;
         }
