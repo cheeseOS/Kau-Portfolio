@@ -395,6 +395,17 @@ button:hover, form .btn-enviar input:hover {
 }
 
 /* MEDIA QUERY SOBRE MIM */
+@media(max-width:424px){
+    .sobrem-img-bk{
+    margin: 0 auto;
+}
+
+.sobrem-img{
+    padding: 1vh;
+    left: 0.1em;
+    border-radius: 100%;
+}
+}
 @media (min-width:425px) {
     .sobrem{
         gap: 1.5rem;
@@ -421,10 +432,6 @@ button:hover, form .btn-enviar input:hover {
         left: 0.1em;
         border-radius: 45%;
     }
-
-/*     .caixade{
-        display: none;
-    } */
 }
 @media (min-width:640px) {
     .sobrem-img-bk{
